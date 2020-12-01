@@ -11,7 +11,7 @@ public class ParticleBlood extends Particle
         super(world, d, d1, d2, d3, d4, d5);
         particleGravity = 0.06F;
         particleRed = 1.0F;
-        particleGreen = MobDismemberment.config.greenBlood == 1 && !isPlayer ? 1.0F : 0.0F;
+        particleGreen = MobDismemberment.config.greenBlood == 1 && !isPlayer ? 1.0F : 1.0F;
         particleBlue = 0.0F;
         particleScale *= 1.2F;
         multiplyVelocity(1.2F);
